@@ -55,5 +55,12 @@ header{
     left: 0;
     width: 100%;
     z-index: 10;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 75rem;
+    padding: 0 1.5rem;
     background-color: red;
 }
