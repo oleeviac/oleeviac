@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
 /* Website Theme */
 
 :root{
@@ -29,5 +31,29 @@
 body{
     overflow-x: hidden;
     background-color: var(--bg-color);
+    font-family: "Syncopate", sans-serif;
+}
 
+::selection{
+    background-color: hsla(var(--hue-1), 100%, 60%, 0.9);
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Navbar Styling */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: red;
 }
